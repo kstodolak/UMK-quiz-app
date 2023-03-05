@@ -5,10 +5,8 @@ import { getQuestions } from './common/services/getQuestions';
 function App() {
   const questions = getQuestions();
   return (
-    <div className="App">
-      <header className="App-header">
-        <Quiz questions={questions} />
-      </header>
+    <div className="app">
+      <Quiz questions={questions} />
     </div>
   );
 }
