@@ -4,7 +4,7 @@ import { Question } from '../Question/Question';
 import { QuizResult } from '../QuizResult/QuizResult';
 import './Quiz.css';
 
-export function Quiz({ questions }) {
+function Quiz({ questions }) {
   const questionsAmount = questions.length;
   const [currentQuestion, setCurrentQuestion] = useState(1);
   const [showResult, setShowResult] = useState(false);
@@ -46,3 +46,5 @@ export function Quiz({ questions }) {
     </main>
   )
 }
+
+export { Quiz };

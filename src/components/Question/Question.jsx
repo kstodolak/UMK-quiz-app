@@ -1,8 +1,8 @@
 import React from 'react'
-import { QuestionAnswer } from '../QuestionAnswer/QuestionAnswer';
+import { QuestionOption } from '../QuestionOption/QuestionOption';
 import './Question.css';
 
-export function Question({ question, saveAnswer, showResult }) {
+function Question({ question, saveAnswer, showResult }) {
   const { correct, text, options } = question;
 
   const answerHandleClick = (isCorrect) => saveAnswer(isCorrect);
@@ -13,7 +13,7 @@ export function Question({ question, saveAnswer, showResult }) {
       <div className='verticalDivider'></div>
       <section className='questionAnswers'>
         {options.map(({ id, answer }) => (
-          <QuestionAnswer
+          <QuestionOption
             id={id}
             key={`answer-${id}`}
             answer={answer}
@@ -26,3 +26,5 @@ export function Question({ question, saveAnswer, showResult }) {
     </div>
   )
 }
+
+export { Question };

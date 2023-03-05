@@ -1,4 +1,4 @@
-.questionAnswerButton {
+.questionOptionButton {
   box-sizing: border-box;
   width: 80%;
   height: 40px;
@@ -11,17 +11,17 @@
   border-radius: 5px;
 }
 
-.questionAnswerButton:hover {
+.questionOptionButton:hover {
   border-width: 4px;
   border-color: #303952;
 }
 
-.questionAnswerButton.correct {
+.questionOptionButton.correct {
   border-color: #2ed573;
   border-width: 4px;
 }
 
-.questionAnswerButton.wrong {
+.questionOptionButton.wrong {
   border-color: #ff4757;
   border-width: 4px;
 }

@@ -10,13 +10,13 @@ export const questions = [
     ]
   },
   {
-    text: 'Najlepszy prowadzący zajęć frontendowych?',
+    text: 'Więcej niż jedno zwierze to:',
     correct: 2,
     options: [
-      { id: 1, answer: 'Maciej' },
-      { id: 2, answer: 'Kacper' },
-      { id: 3, answer: 'Michał' },
-      { id: 4, answer: 'Kajetan' },
+      { id: 1, answer: 'Stado' },
+      { id: 2, answer: 'Lama' },
+      { id: 3, answer: 'Owca' },
+      { id: 4, answer: 'Wiele zwierząt' },
     ]
   }
 ]
