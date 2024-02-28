@@ -1,5 +1,3 @@
-import React from "react";
-
 function Quiz({ questions }) {
   console.log(questions);
 
