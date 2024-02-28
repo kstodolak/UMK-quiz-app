@@ -6,13 +6,13 @@ function QuestionOption({ answer, answerHandleClick, isCorrect, showResult }) {
   const resultClassName = isCorrect ? 'correct' : 'wrong';
 
   // Option 1 - without clsx library
-  const buttonStyles = `questionOptionButton ${showResult ? resultClassName : ''}`;
+  // const buttonStyles = `questionOptionButton ${showResult ? resultClassName : ''}`;
 
   // Option 2 - with clsx library
-  // const buttonStyles = css(
-  //   'questionOptionButton',
-  //   showResult ? resultClassName : null,
-  // );
+  const buttonStyles = css(
+    'questionOptionButton',
+    showResult ? resultClassName : null,
+  );
 
   const handleClick = () => answerHandleClick(isCorrect);
 
