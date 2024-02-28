@@ -1,4 +1,3 @@
-import React from 'react'
 import './NextQuestionButton.css';
 
 function NextQuestionButton({ onClick }) {

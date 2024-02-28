@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { NextQuestionButton } from '../NextQuestionButton/NextQuestionButton';
 import { Question } from '../Question/Question';
 import { QuizResult } from '../QuizResult/QuizResult';

@@ -1,4 +1,3 @@
-import React from 'react'
 import { QuestionOption } from '../QuestionOption/QuestionOption';
 import './Question.css';
 
