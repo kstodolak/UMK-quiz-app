@@ -10,13 +10,13 @@ export const questions = [
     ]
   },
   {
-    text: 'Więcej niż jedno zwierze to:',
+    text: 'Który pierwiastek chemiczny ma symbol "O"?',
     correct: 2,
     options: [
-      { id: 1, answer: 'Stado' },
-      { id: 2, answer: 'Lama' },
-      { id: 3, answer: 'Owca' },
-      { id: 4, answer: 'Wiele zwierząt' },
+      { id: 1, answer: 'Wodór' },
+      { id: 2, answer: 'Tlen' },
+      { id: 3, answer: 'Azot' },
+      { id: 4, answer: 'Hel' },
     ]
   }
 ]
